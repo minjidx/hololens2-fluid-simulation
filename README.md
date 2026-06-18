@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This is a position based dynamics particle fluid simulation running in Unity on the GPU. It uses the same math from the previous [PBD project](https://github.com/Scrawk/Position-Based-Dynamics) but adapted some what to run on the GPU.
 
 The biggest difference is how finding the neighbouring particles is handled. This is more complicated on the GPU and I went with a grid hash using a Bitonic sort. Other sorting method are around (like Radix sort) and maybe faster but the Bitonic sort was simpler and works quite well. Profiling shows its not the bottle neck so a faster sort may not see much performance gain.
@@ -43,3 +44,8 @@ List of physics projects
 [GPU-GEMS-3D-Fluid-Simulation](https://github.com/Scrawk/GPU-GEMS-3D-Fluid-Simulation)\
 [CyclonePhysicsEngine](https://github.com/Scrawk/CyclonePhysicsEngine)\
 [2D-Deformable-body-in-Unity](https://github.com/Scrawk/2D-Deformable-body-in-Unity)
+=======
+# HoloLens2 Fluid Simulation
+HoloLens2와 MRTK를 기반으로 유체 시뮬레이션 프로젝트 (2021–2022). 
+XR 환경에서 원격으로 물리 기반 유체를 실시간 제어할 수 있도록 구현 
+>>>>>>> f5592be08998fd87f9ea53d3bd45a955a7dc8802

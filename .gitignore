@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿################################################################################
 # This .gitignore file was automatically created by Microsoft(R) Visual Studio.
 ################################################################################
@@ -7,3 +8,40 @@
 /obj/Debug
 /Logs
 /.vs/PBD-Fluid-in-Unity/v16/TestStore/0
+=======
+# Unity generated folders
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+
+# User-specific
+*.csproj
+*.unityproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+
+# Rider / VS / VSCode
+.vscode/
+.vs/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build results
+*.apk
+*.unitypackage
+
+# Crash reports
+sysinfo.txt
+>>>>>>> f5592be08998fd87f9ea53d3bd45a955a7dc8802
